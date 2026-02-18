@@ -16,3 +16,5 @@ sub_array(arr)
 #so if i is 0 then j is bw 0 to 5 
 #so if i is 0 and j is o then k is o to o it will print 1 
 #and when i is 0 and j is 1 then k is o to 1 it will print 1 2
+
+#we can use  print(arr[i:j+1]) this at palce of third loop ye interalay python slicing se kar dega 
