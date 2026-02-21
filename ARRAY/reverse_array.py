@@ -13,7 +13,7 @@ def reverseArray(arr):
     # Copy elements back to original array
     for i in range(n):
         arr[i] = temp[i]
-
+#here we use temp and change it to main because if we not do then it wont change original array
 if __name__ == "__main__":
     arr = [1, 4, 3, 2, 6, 5]
 
@@ -21,6 +21,9 @@ if __name__ == "__main__":
   
     for i in range(len(arr)):
         print(arr[i], end=" ")
+
+
+
 
 
 #another method
@@ -50,6 +53,12 @@ if __name__ == "__main__":
     for i in range(len(arr)):
         print(arr[i], end=" ")
 
+
+
+
+
+
+
 #another method
 def reverseArray(arr):
     n = len(arr)
@@ -57,7 +66,7 @@ def reverseArray(arr):
     # Iterate over the first half 
     # and for every index i, swap
     # arr[i] with arr[n - i - 1]
-    for i in range(n // 2):
+    for i in range(n // 2):#if array size is odd then it takes round figure 
         temp = arr[i]
         arr[i] = arr[n - i - 1]
         arr[n - i - 1] = temp
@@ -69,6 +78,11 @@ if __name__ == "__main__":
   
     for i in range(len(arr)):
         print(arr[i], end=" ")         
+
+
+
+
+
 
 #built-in method 
 # function to reverse an array

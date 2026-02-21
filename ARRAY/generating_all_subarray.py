@@ -11,7 +11,7 @@ def sub_array(arr):
 
 arr=[1,2,4,5,6,7]
 sub_array(arr)
-#formaula for calculating no of subarray n(n+1)2
+#formaula for calculating no of subarray n(n+1)/2
 #here i is 0,1,2,3,4,5
 #so if i is 0 then j is bw 0 to 5 
 #so if i is 0 and j is o then k is o to o it will print 1 
